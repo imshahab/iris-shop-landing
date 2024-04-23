@@ -1,29 +1,51 @@
 /* link css, class active, google fonts */
-
-
+body {
+    margin: 0;
+    font-family: Vazirmatn FD;
+}
 
 /* margin 0 and box model and margin vs padding */
-
-
-
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* flexbox */
-
-
-
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
 
 /* chaining selectors */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 36px;
+    margin: 0;
+}
 
-
-
-
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    /* later */
+    position: relative;
+}
 
 /* pseudo classes hover, active */
-
-
-
-
-
+nav ul li a:hover {
+    color: gray;
+}
 
 /* chaining classes, before after, position absolute and relative */
+nav ul li a.active:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
