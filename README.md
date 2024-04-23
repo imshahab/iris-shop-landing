@@ -10,7 +10,7 @@ This repository contains the source code for the Iris Shop landing page, a simpl
 
 [0.Intro](https://github.com/imshahab/iris-shop-landing/blob/main/Slides/0.Intro.pdf)
 [1.HTML](https://github.com/imshahab/iris-shop-landing/blob/main/Slides/1.HTML.pdf)
-[2.CSS](https://github.com/imshahab/iris-shop-landing/blob/main/Slides/3-CSS.pdf)
+[2.CSS](https://github.com/imshahab/iris-shop-landing/blob/main/Slides/2-CSS.pdf)
 
 ## Getting Started
 
